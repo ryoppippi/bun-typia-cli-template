@@ -15,6 +15,6 @@ jobs:
           bun-version: latest
       - run: bun i --frozen-lockfile
       - run: bun run prepare
-      - run: bun run start &> $GITHUB_STEP_SUMMARY
-        shell: bash
+      - run: bun run typecheck
+      - run: bun run lint
       - run: bun run build

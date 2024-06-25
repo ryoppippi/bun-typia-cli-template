@@ -19,6 +19,7 @@
 		"build": "unbuild",
 		"start": "bun run src/index.ts",
 		"lint": "eslint .",
+		"typecheck": "tsc --noEmit",
 		"format": "eslint --fix .",
 		"prepare": "ts-patch install && typia patch"
 	},
