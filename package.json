@@ -21,9 +21,9 @@
 		"build": "unbuild",
 		"dev": "bun run --watch src/index.ts",
 		"start": "bun run src/index.ts",
-		"lint": "eslint .",
+		"lint": "eslint --cache .",
 		"typecheck": "tsc --noEmit",
-		"format": "eslint --fix .",
+		"format": "npm run lint -- --fix",
 		"prepare": "ts-patch install && typia patch"
 	},
 	"dependencies": {

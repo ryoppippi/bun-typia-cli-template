@@ -1,3 +1,5 @@
 dist
 bun.lockb
 node_modules
+
+.eslintcache
