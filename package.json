@@ -11,12 +11,15 @@
 	"main": "dist/index.mjs",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
+	"bin": {
+		"cli": "dist/index.cjs"
+	},
 	"files": [
 		"dist"
 	],
 	"scripts": {
-		"dev": "unbuild --stub",
 		"build": "unbuild",
+		"dev": "bun run --watch src/index.ts",
 		"start": "bun run src/index.ts",
 		"lint": "eslint .",
 		"typecheck": "tsc --noEmit",
