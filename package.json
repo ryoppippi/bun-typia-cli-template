@@ -35,8 +35,8 @@
 		"@types/bun": "latest",
 		"eslint": "^9.5.0",
 		"eslint-plugin-format": "^0.1.2",
-		"ts-patch": "^3.2.0",
-		"typescript": "~5.4.5",
+		"ts-patch": "^3.2.1",
+		"typescript": "~5.5.2",
 		"unbuild": "^2.0.0"
 	}
 }
