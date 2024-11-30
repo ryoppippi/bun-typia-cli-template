@@ -1,5 +1,5 @@
-import { defineBuildConfig } from 'unbuild';
 import UnpluginTypia from '@ryoppippi/unplugin-typia/rollup';
+import { defineBuildConfig } from 'unbuild';
 
 export default defineBuildConfig([
 	{
