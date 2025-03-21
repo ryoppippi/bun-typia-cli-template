@@ -6,4 +6,6 @@ type IMember = {
 	age: number & tags.ExclusiveMinimum<19> & tags.Maximum<100>;
 };
 
-export const is = typia.createIs<IMember>();
+export function isMember(value: unknown): value is IMember {
+  return typia.is<IMember>(value);
+}
