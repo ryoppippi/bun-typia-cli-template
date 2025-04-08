@@ -37,6 +37,6 @@
 		"eslint": "^9.22.0",
 		"eslint-plugin-format": "^1.0.1",
 		"ts-patch": "^3.3.0",
-		"typescript": "~5.8.2"
+		"typescript": "~5.8.3"
 	}
 }
