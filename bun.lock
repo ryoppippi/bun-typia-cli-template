@@ -8,7 +8,7 @@
       },
       "devDependencies": {
         "@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config",
-        "@ryoppippi/unplugin-typia": "^2.0.3",
+        "@ryoppippi/unplugin-typia": "^2.2.0",
         "@types/bun": "latest",
         "bun-plugin-isolated-decl": "^0.1.10",
         "eslint": "^9.22.0",
@@ -175,7 +175,7 @@
 
     "@ryoppippi/eslint-config": ["@jsr/ryoppippi__eslint-config@0.0.18", "https://npm.jsr.io/~/11/@jsr/ryoppippi__eslint-config/0.0.18.tgz", { "dependencies": { "@antfu/eslint-config": "^2.21.1", "defu": "^6.1.4", "pkg-types": "^1.1.1" } }, "sha512-P9ZHOfAo3cf0eLLmSOvGphV/OSiAjduyr5ZClzBWUEHcu23c10zWBxCdWuiykYLWnxXdgJ3nACYirgrePzR94g=="],
 
-    "@ryoppippi/unplugin-typia": ["@ryoppippi/unplugin-typia@2.0.3", "", { "dependencies": { "@rollup/pluginutils": "^5.1.4", "consola": "^3.4.0", "defu": "^6.1.4", "diff-match-patch": "^1.0.5", "find-cache-dir": "^5.0.0", "magic-string": "^0.30.17", "pathe": "^2.0.3", "pkg-types": "^2.1.0", "type-fest": "^4.36.0", "unplugin": "^2.2.0" }, "peerDependencies": { "svelte": "^5.0.0", "typescript": ">=4.8.0 <5.9.0", "typia": ">=8.0.0 <9.0.0", "vite": ">=3.0.0" }, "optionalPeers": ["svelte", "vite"] }, "sha512-1kEqo3kQzf+2YchQ27p654zUQU68yue6JTUR6VmECsOKgAOnAOOKib+3MCVtnMw8AhzqUGtf8c83mQcXIZ5Mew=="],
+    "@ryoppippi/unplugin-typia": ["@ryoppippi/unplugin-typia@2.2.0", "", { "dependencies": { "@rollup/pluginutils": "^5.1.4", "consola": "^3.4.2", "defu": "^6.1.4", "diff-match-patch-es": "^1.0.1", "find-cache-dir": "^5.0.0", "magic-string": "^0.30.17", "pathe": "^2.0.3", "pkg-types": "^2.1.0", "type-fest": "^4.37.0", "unplugin": "^2.2.2" }, "peerDependencies": { "svelte": "^5.25.2", "typescript": ">=4.8.0 <5.9.0", "typia": ">=8.0.0", "vite": ">=3.0.0" }, "optionalPeers": ["svelte", "vite"] }, "sha512-Qv3g1PNi/0XVx2v6I0NdtvNmqkVAmtDELXvL7KEULp/1AR7Lvo7zTRpd9FScJsnuupZxr7C9O+309V2Wx2/FvQ=="],
 
     "@samchon/openapi": ["@samchon/openapi@3.1.0", "", {}, "sha512-npzlnWTBLpiA6myD6B9WLlQxiEhXVjwLx59CkDGRLPNL5Ok9QYo7wNgP8km1jb9ZwcpdN5j0UW1ukpFIPDGzQw=="],
 
@@ -341,7 +341,7 @@
 
     "defu": ["defu@6.1.4", "", {}, "sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg=="],
 
-    "diff-match-patch": ["diff-match-patch@1.0.5", "", {}, "sha512-IayShXAgj/QMXgB0IWmKx+rOPuGMhqm5w6jvFxmVenXKIzRqTAAsbBPT3kWQeGANj3jGgvcvv4yK6SxqYmikgw=="],
+    "diff-match-patch-es": ["diff-match-patch-es@1.0.1", "", {}, "sha512-KhSofrZDERg/NE6Nd+TK53knp2qz0o2Ix8rhkXd3Chfm7Wlo58Eq/juNmkyS6bS+3xS26L3Pstz3BdY/q+e9UQ=="],
 
     "dir-glob": ["dir-glob@3.0.1", "", { "dependencies": { "path-type": "^4.0.0" } }, "sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA=="],
 
