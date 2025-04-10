@@ -31,7 +31,7 @@
 	},
 	"devDependencies": {
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config",
-		"@ryoppippi/unplugin-typia": "^2.0.3",
+		"@ryoppippi/unplugin-typia": "^2.2.0",
 		"@types/bun": "latest",
 		"bun-plugin-isolated-decl": "^0.1.10",
 		"eslint": "^9.22.0",
