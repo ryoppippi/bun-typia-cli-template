@@ -27,7 +27,7 @@
 		"prepare": "ts-patch install && typia patch"
 	},
 	"dependencies": {
-		"typia": "^8.0.3"
+		"typia": "^9.1.1"
 	},
 	"devDependencies": {
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config",
