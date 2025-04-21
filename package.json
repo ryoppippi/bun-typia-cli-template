@@ -34,7 +34,7 @@
 		"@ryoppippi/unplugin-typia": "^2.0.3",
 		"@types/bun": "latest",
 		"bun-plugin-isolated-decl": "^0.1.10",
-		"eslint": "^9.22.0",
+		"eslint": "^9.25.0",
 		"eslint-plugin-format": "^1.0.1",
 		"ts-patch": "^3.3.0",
 		"typescript": "~5.8.2"
